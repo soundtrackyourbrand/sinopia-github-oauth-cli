@@ -16,7 +16,7 @@ http.createServer(function(req, res) {
   exec('npm config set ' + keyBase + '_authToken "' + token + '"');
   exec('npm config set ' + keyBase + 'always-auth true');
 
-  res.write('DONE! Get back you your terminal');
+  res.write('DONE! Get back to your terminal!');
   res.end();
 
   process.exit(0);
