@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "sinopia login via github oauth web flow",
   "main": "index.js",
+  "bin": {
+    "sinopia-github-oauth": "bin/sinopia-github-oauth"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +13,6 @@
     "type": "git",
     "url": "github.com/soundtrackyourbrand/sinopia-github-oauth-cli"
   },
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "opener": "^1.4.1"
