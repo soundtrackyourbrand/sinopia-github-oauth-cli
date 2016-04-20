@@ -16,5 +16,13 @@
   "license": "MIT",
   "dependencies": {
     "opener": "^1.4.1"
-  }
+  },
+  "keywords": [
+    "sinopia",
+    "npm",
+    "github",
+    "oauth",
+    "auth",
+    "plugin"
+  ]
 }
