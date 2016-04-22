@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/soundtrackyourbrand/sinopia-github-oauth-cli"
+    "url": "https://github.com/soundtrackyourbrand/sinopia-github-oauth-cli.git"
   },
   "license": "MIT",
   "dependencies": {
