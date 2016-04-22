@@ -6,6 +6,14 @@ var exec = require('child_process').execSync;
 
 var registry = exec('npm config get registry').toString().trim()
 
+if (registry.indexOf('registry.npmjs.org') > -1) {
+  console.log('It seems you are using the default npm repository.');
+  console.log('Please update it to your sinopia url by running:');
+  console.log('');
+  console.log('npm config set registry <url>');
+  process.exit(0);
+}
+
 opener(registry + 'oauth/authorize');
 
 fs.readFile('./index.html', function(err, html) {
