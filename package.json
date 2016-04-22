@@ -1,7 +1,7 @@
 {
   "name": "sinopia-github-oauth-cli",
-  "version": "1.0.0",
-  "description": "sinopia login via github oauth web flow",
+  "version": "1.0.1",
+  "description": "Sinopia login via GitHub OAuth web flow",
   "main": "index.js",
   "bin": {
     "sinopia-github-oauth": "bin/sinopia-github-oauth"
