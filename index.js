@@ -3,6 +3,7 @@ var http = require('http');
 var fs = require('fs');
 var url = require('url');
 var exec = require('child_process').execSync;
+var path = require('path');
 
 var registry = exec('npm config get registry').toString().trim()
 
@@ -16,7 +17,7 @@ if (registry.indexOf('registry.npmjs.org') > -1) {
 
 opener(registry + 'oauth/authorize');
 
-fs.readFile('./index.html', function(err, html) {
+fs.readFile(path.join(__dirname, 'index.html'), function(err, html) {
   if (err) {
     throw err;
   }
