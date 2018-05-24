@@ -17,5 +17,9 @@ Authenticate
 $ sinopia-github-oauth
 ```
 
+or directly pass registry url 
+```
+$ sinopia-github-oauth --registry http://url.to.your.registry:4873
+```
 
 
